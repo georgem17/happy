@@ -1,0 +1,156 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+/* header */
+header nav{
+  display: flex;
+}
+.logo{
+  text-align: center;
+  padding: 20px;
+}
+.logo a{
+  text-decoration: none;
+  color: #2C272E;
+  font-size: 30px;
+}
+.navegacion{
+  justify-content: center;
+}
+.buscador{
+  padding: 15px 0px 0px 150px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul a{
+  padding: 0px 25px 0px 30px ;
+  text-decoration: none;
+  color: #2C272E;
+}
+header form button{
+  background-color: transparent;
+  color: #2C272E;
+  border: none;
+}
+header form input{
+  border: none;
+}
+.menu ul li img{
+  width: 15px;
+}
+
+/* body */
+main{
+  width: 100%;
+  height: 750px;
+}
+.portada {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+article .flotar .link{
+  font-size: 2.5rem;
+}
+article .flotar .link i{
+  padding: 10px 0px 0px 90px;
+}
+.link{
+  display: flex;
+  flex-direction: column;
+}
+article .flotar .chat{
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  margin: 200px 15px 0px 0px;
+  border: 1px solid black;
+
+}
+.chat a{
+  text-decoration: none;
+  color: #2C272E;
+  padding: 9px;
+}
+.chat img{
+  width: 16px;
+  background-color: white;
+  padding: 10px;
+
+}
+.flotar{
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  /* padding: 250px 0px 0px 0px ; */
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.item{
+  text-align: center;
+  color: #2C272E;
+}
+.item h3{
+  border: 1px solid black;
+  padding: 5px;
+} 
+.titulo{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  color: #2C272E;
+}
+.boton{
+  text-align: center;
+  padding: 20px;
+}
+.boton a{
+  text-decoration: none;
+  color: white;
+  background-color: #2C272E;
+  padding: 10px 30px;
+}
+/* section{
+  border-bottom: 1px solid black;
+} */
+
+/* footer */
+footer h2{
+  text-align: center;
+  color: #2C272E;
+}
+footer div img{
+  width: 30px;
+}
+footer .footer__section{
+  display: flex;
+}
+footer .footer__tres{
+  display: flex;
+  margin: auto;
+}
+footer div{
+  padding: 0px 20px;
+  text-align: center;
+  /* display: flex; */
+}
+.email{
+  padding: 10px 5px 25px 10px;
+  display: flex;
+  justify-content: center;
+}
+footer h5{
+  text-align: center;
+  color: #2C272E;
+}
+footer .footer__section .imgfoter i{
+  padding: 10px;
+}
